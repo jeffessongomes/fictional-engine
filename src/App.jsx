@@ -45,10 +45,10 @@ function App() {
           7Web7 - Your Dream Cars
       </div>
       <Container className="container-web7">
-        <Row xs={2} md={4} lg={6}>
+        <Row xs={1} md={1} lg={6}>
           {data.map((item) => (
-            <Col>
-              <Card style={{ width: "18rem" }}>
+            <Col className="row-web7">
+              <Card style={{ width: "100%" }}>
                 <Card.Img variant="top" src={item?.image} />
                 <Card.Body className="card-content">
                   <Card.Title>{item?.name}</Card.Title>
