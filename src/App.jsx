@@ -16,7 +16,7 @@ function App() {
 
   const getCard = async () => {
     fetch(
-      "https://raw.githubusercontent.com/jeffessongomes/fictional-engine/master/data.json",
+      "https://raw.githubusercontent.com/jeffessongomes/fictional-engine/master/data.jsonc",
       {
         method: 'GET',
         headers: {
