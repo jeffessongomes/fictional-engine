@@ -45,7 +45,7 @@ function App() {
           7Web7 - Your Dream Cars
       </div>
       <Container className="container-web7">
-        <Row xs={1} md={1} lg={6}>
+        <Row xs={1} md={1} lg={3}>
           {data.map((item) => (
             <Col className="row-web7">
               <Card style={{ width: "100%" }}>
